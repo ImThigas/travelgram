@@ -12,7 +12,15 @@ header .container{
 
 #profile{
     display: flex;
+    align-items: center;
     gap: 32px;
+}
+
+#profile img{
+    border-radius: 50%;
+    width: 176px;
+    height: 176px;
+    object-fit: cover;
 }
 
 #profile > div{
